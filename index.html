@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>E3</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ <style>
+  *{
+   box-sizing: border-box;
+   padding: 0px;
+   margin:0px;
+  }
+
+  
+ </style>
+</head>
+<body>
+
+ <div class="row">
+  <div class="col-lg-4">
+   <div class="card">
+    <div class="card" style="width: 100%;">
+     <div class="card-body">
+       <img src="rat.jpg" alt="Sản phẩm 1" style="width: 100%;">
+       <h5 class="card-title">Chuột</h5>
+       <p class="card-text">Mô tả ngắn về sản phẩm.</p>
+       <p class="card-text">🤑🤑🤑</p>
+       <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Add to card</button>
+      </div>
+     </div>
+    </div>
+   </div>
+ 
+  <div class="col-lg-4">
+    <div class="card">
+     <div class="card" style="width: 100%;">
+      <div class="card-body">
+       <img src="mew.jpg" alt="Sản phẩm 2" style="width: 100%;">
+        <h5 class="card-title">Mèo</h5>
+        <p class="card-text">Mô tả ngắn về sản phẩm.</p>
+        <p class="card-text">🤑🤑🤑</p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Add to card</button>
+       </div>
+      </div>
+     </div>
+    </div>
+ 
+  <div class="col-lg-4">
+   <div class="card">
+    <div class="card" style="width: 100%;">
+     <div class="card-body">
+      <img src="sock.jpg" alt="Sản phẩm 3" style="width: 100%;">
+      <h5 class="card-title">Sóc</h5>
+       <p class="card-text">Mô tả ngắn về sản phẩm.</p>
+       <p class="card-text">🤑🤑🤑</p>
+       <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Add to card</button>
+      </div>
+     </div>
+    </div>
+   </div>
+ </div>
+
+
+
+
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <hr>
+
+  <div class="offcanvas-body">
+   <div class="alert alert-success alert-dismissible fade show" role="alert">Added<a href="https://getbootstrap.com/docs/5.3/components/alerts/#examples" class="alert-link"></a>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+   </div>
+   <div class="alert alert-success alert-dismissible fade show" role="alert">Added<a href="https://getbootstrap.com/docs/5.3/components/alerts/#examples" class="alert-link"></a>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+   </div>
+   <div class="alert alert-success alert-dismissible fade show" role="alert">Added<a href="https://getbootstrap.com/docs/5.3/components/alerts/#examples" class="alert-link"></a>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+   </div>
+  </div>
+
+  <div class="offcanvas-footer">
+   <hr>
+   <div class="row ">
+    <div class="col d-flex justify-content-center">
+     <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">View Card</button>
+    </div>
+    <div class="col d-flex justify-content-center">
+     <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal2">Checkout</button>
+    </div>
+   </div>
+  </div>
+</div>
+
+
+
+<!-- modal 1 -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header bg-success d-flex justify-content-center">
+       <h1 class="modal-title fs-5" id="exampleModal2Label" style="color:white">Your Card</h1>
+     </div>
+     <div class="modal-body">   
+      <div>
+       <div class="row">
+        <div class="col-3">
+         <img src="rat.jpg" style="width: 100%; height: 100%;"> 
+        </div>
+        <div class="col-9">
+         <p>Chuột: Bel nau com</p>
+         <p>100$</p>
+        </div>
+       </div>
+      </div>
+
+      <br>
+      <div>
+       <div class="row">
+        <div class="col-3">
+         <img src="mew.jpg" style="width: 100%; height: 100%;"> 
+        </div>
+        <div class="col-9">
+         <p>Mèo</p>
+         <p>100$</p>
+        </div>
+       </div>
+      </div>
+
+      <br>
+      <div>
+       <div class="row">
+        <div class="col-3">
+         <img src="sock.jpg" style="width: 100%; height: 100%;"> 
+        </div>
+        <div class="col-9">
+         <p>Sóc</p>
+         <p>100$</p>
+        </div>
+       </div>
+      </div>
+
+
+
+
+     </div>
+     <div class="modal-footer d-flex justify-content-center">
+       <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Go back</button>
+     </div>
+   </div>
+ </div>
+</div>
+
+<!-- modal 2 -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header bg-info d-flex justify-content-center">
+       <h1 class="modal-title fs-5" id="exampleModalLabel">Sign up</h1>
+     </div>
+
+     <div class="modal-body">
+      <div class="mb-3">
+       <label for="name" class="form-label">Username</label>
+       <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Username">
+       <label for="Password" class="form-label">Password</label>
+       <input type="Password" class="form-control" id="exampleFormControlInput2" placeholder="Enter your Password">
+       <label for="Confirm Password" class="form-label">Confirm Password</label>
+       <input type="Confirm Password" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Confirm Password">
+       <label for="Email Id" class="form-label">Email Id</label>
+       <input type="Email Id" class="form-control" id="exampleFormControlInput2" placeholder="Enter your Email Id">
+       <label for="Phone Number" class="form-label">Phone Number</label>
+       <input type="Phone Number" class="form-control" id="exampleFormControlInput2" placeholder="Enter your Phone Number">
+       </div>
+       <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+
+     </div>
+     <div class="modal-footer d-flex justify-content-center">
+       <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Register</button>
+       <button type="button" class="btn btn-secondary">Login Now!</button>
+     </div>
+   </div>
+ </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
